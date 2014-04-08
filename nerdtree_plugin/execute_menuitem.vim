@@ -14,7 +14,7 @@ let s:haskdeinit = system("ps -e") =~ 'kdeinit'
 let s:hasdarwin = system("uname -s") =~ 'Darwin'
 
 call NERDTreeAddMenuItem({
-      \ 'text': 'e(x)ecute',
+      \ 'text': 'e(x)ecute the current node wth default open',
       \ 'shortcut': 'x',
       \ 'callback': 'NERDTreeExecute' })
 
